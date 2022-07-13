@@ -1,0 +1,145 @@
+body{
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #FFF2F2;
+
+
+}
+h1{
+  margin: 40px auto 0 auto;
+  font-family: 'Charmonman', cursive;
+  font-size: 3.75rem;  /* 16px = 1em = 100%= rem doesnot get affected by any other upstream changes */
+  color: #CA4E79;
+
+}
+h2{
+  margin: 0px;
+  margin-bottom: 15px;
+  font-size:30px;
+  font-family: "Montserrat",serif;
+  font-weight:bolder;
+  color: #CA4E79;
+  padding: 10px;
+
+}
+h3{
+  margin: 0px;
+  font-family: "Montserrat",serif;
+  color:#7A4069
+}
+
+p{
+  line-height: 2;
+}
+.top-container{
+  background-color: #FFF2F2;
+  position: relative;
+  padding: 100px;
+  background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.middle-container{
+  margin: 100px 0;
+  background-color: #FFF2F2;
+
+}
+.bottom-container{
+  background-color: #CA4E79;
+  height: 100px;
+  padding: 50px 0px 20px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+h4{
+  font-size: 1.5rem;
+  font-family: "Montserrat",serif;
+  font-weight:bolder;
+  color: #CA4E79;
+  padding: 10px;
+}
+
+.design{
+  width: 35%;
+  float: left;
+  margin-right:30px;
+}
+.music{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+hr{
+  border-style: dotted none none;
+  width: 4%;
+  border-color: grey;
+  border-width: 6px;
+  margin: 100px auto;
+}
+.bio{
+  width: 40%;
+  margin: auto;
+}
+.touch{
+  margin: auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.btn {
+  background: #f07aaf;
+  background-image: -webkit-linear-gradient(top, #f07aaf, #e05c88);
+  background-image: -moz-linear-gradient(top, #f07aaf, #e05c88);
+  background-image: -ms-linear-gradient(top, #f07aaf, #e05c88);
+  background-image: -o-linear-gradient(top, #f07aaf, #e05c88);
+  background-image: linear-gradient(to bottom, #f07aaf, #e05c88);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f04a95;
+  background-image: -webkit-linear-gradient(top, #f04a95, #e02161);
+  background-image: -moz-linear-gradient(top, #f04a95, #e02161);
+  background-image: -ms-linear-gradient(top, #f04a95, #e02161);
+  background-image: -o-linear-gradient(top, #f04a95, #e02161);
+  background-image: linear-gradient(to bottom, #f04a95, #e02161);
+  text-decoration:none;
+  color: white;
+}
+
+a{
+  color: #FFF2F2;
+  font-family: "Montserrat",serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:black;
+}
+.copyright{
+  color: #FFF2F2;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+.background{
+  width: 100%;
+  background-image:url(https://img.freepik.com/free-vector/valentine-theme-with-hearts-pink-sky_1308-38030.jpg);
+}
